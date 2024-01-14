@@ -113,9 +113,9 @@ You can deploy this project using:
 
 ## 👥 Author <a name="author"></a>
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@tajemouti](https://github.com/tajemouti)
+- Twitter: [@AjrassTajemouti](https://twitter.com/AjrassTajemouti)
+- LinkedIn: [ajrass](https://linkedin.com/in/ajrass)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
