@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="public/logo512.png" alt="logo" width="140"  height="auto" />
+  <img src="logo.svg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Ajrass Tajemouti</b></h3>
