@@ -39,6 +39,10 @@ const NavBar = () => {
     setToggleIcon(!toggleIcon);
   };
 
+  const closeMenu = () => {
+    setToggleIcon(false);
+  };
+
   return (
     <div>
       <nav className="navbar">
@@ -49,15 +53,17 @@ const NavBar = () => {
         </div>
 
         <ul className={`navbar__container__menu ${toggleIcon ? 'active' : ''}`}>
-          {
-          data.map((item) => (
+          {data.map((item) => (
             <li key={item.to} className="navbar__container__menu__item">
-              <Link to={item.to} className="navbar__container__menu__item__links">
+              <Link
+                to={item.to}
+                className="navbar__container__menu__item__links"
+                onClick={closeMenu}
+              >
                 {item.label}
               </Link>
             </li>
-          ))
-        }
+          ))}
         </ul>
 
         <div

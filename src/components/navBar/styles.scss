@@ -6,6 +6,7 @@
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
+  z-index: 1;
 
   &__container {
     display: flex;
