@@ -4,33 +4,7 @@ import { FaBars } from 'react-icons/fa';
 import { HiX } from 'react-icons/hi';
 import logo from '../../logo.svg';
 import './styles.scss';
-
-const data = [
-  {
-    label: 'HOME',
-    to: '/',
-  },
-  {
-    label: 'ABOUT ME',
-    to: '/about',
-  },
-  {
-    label: 'SKILLS',
-    to: '/skills',
-  },
-  {
-    label: 'RESUME',
-    to: '/resume',
-  },
-  {
-    label: 'PORTFOLIO',
-    to: '/portfolio',
-  },
-  {
-    label: 'CONTACT',
-    to: '/contact',
-  },
-];
+import data from './utils';
 
 const NavBar = () => {
   const [toggleIcon, setToggleIcon] = useState(false);
