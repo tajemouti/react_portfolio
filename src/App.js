@@ -4,7 +4,6 @@ import Particles, { initParticlesEngine } from '@tsparticles/react';
 import { loadFull } from 'tsparticles';
 import Home from './containers/home';
 import About from './containers/about';
-import Resume from './containers/resume';
 import Skills from './containers/skills';
 import Contact from './containers/contact';
 import Portfolio from './containers/portfolio';
@@ -41,7 +40,6 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>

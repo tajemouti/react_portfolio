@@ -2,7 +2,7 @@
 
 :root {
   --theme-backgroung-color: #1d1d1d;
-  --theme-main-color: #36a8ca;
+  --theme-main-color: #23b3df;
   --theme-sub-text-color: #fff;
   --theme-nav-background-color: #181818;
 }
@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  font-family: Roboto, sans-serif;
 }
 
 html {
