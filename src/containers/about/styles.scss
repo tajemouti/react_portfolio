@@ -50,7 +50,7 @@
         }
       }
 
-      ul>li {
+      ul > li {
         line-height: 1rem;
         margin-bottom: 15px;
 
@@ -82,9 +82,11 @@
         width: 350px;
         height: 350px;
         background:
-          radial-gradient(180px,
+          radial-gradient(
+            180px,
             var(--theme-main-color),
-            transparent 90%);
+            transparent 90%
+          );
         position: relative;
         border-radius: 50%;
         animation: rotation 10s linear 1s infinite;
