@@ -13,23 +13,44 @@
     &__personalWrapper {
       h3 {
         margin-bottom: 10px;
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         font-weight: 700;
         color: var(--theme-main-color);
       }
 
-      h3.personalInformationHeaderText {
-        padding-top: 20px;
-      }
-
       p {
         color: var(--theme-sub-text-color);
-        font-size: 1.8rem;
+        font-size: 2.2rem;
         line-height: 1.65;
         padding-bottom: 20px;
+        text-align: justify;
       }
 
-      ul > li {
+      a {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 2rem;
+
+        button {
+          cursor: pointer;
+          padding: 10px 70px;
+          font-size: 2rem;
+          background: transparent;
+          color: var(--theme-main-color);
+          border: 1.5px solid var(--theme-main-color);
+          border-radius: 4px;
+          font-weight: 500;
+
+          &:hover {
+            background: var(--theme-main-color);
+            color: #000;
+          }
+        }
+      }
+
+      ul>li {
         line-height: 1rem;
         margin-bottom: 15px;
 
@@ -61,11 +82,9 @@
         width: 350px;
         height: 350px;
         background:
-          radial-gradient(
-            180px,
+          radial-gradient(180px,
             var(--theme-main-color),
-            transparent 90%
-          );
+            transparent 90%);
         position: relative;
         border-radius: 50%;
         animation: rotation 10s linear 1s infinite;
@@ -111,6 +130,12 @@
     &__personalWrapper,
     &__servicesWrapper {
       width: 100%;
+    }
+
+    &__personalWrapper {
+      p {
+        font-size: 2rem;
+      }
     }
 
     &__servicesWrapper {

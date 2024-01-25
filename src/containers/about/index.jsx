@@ -1,46 +1,19 @@
 import React from 'react';
 import { BsInfoCircleFill } from 'react-icons/bs';
 import { Animate } from 'react-simple-animate';
-import { DiApple, DiAndroid } from 'react-icons/di';
-import { FaDev, FaDatabase } from 'react-icons/fa';
+import {
+  FaDatabase, FaReact, FaJsSquare, FaDev,
+} from 'react-icons/fa';
 import PageHeaderContent from '../../components/pageHeaderContent';
 import './styles.scss';
 import SocialFooter from '../../components/footer';
 
-// const personalDetails = [
-//   {
-//     id: 1,
-//     label: 'Name',
-//     value: 'Ajrass Tajemouti',
-//   },
-//   {
-//     id: 2,
-//     label: 'Age',
-//     value: '43',
-//   },
-//   {
-//     id: 3,
-//     label: 'Address',
-//     value: 'Bouznika, Morocco',
-//   },
-//   {
-//     id: 4,
-//     label: 'E-mail',
-//     value: 'tajemouti@gmail.com',
-//   },
-//   {
-//     id: 5,
-//     label: 'Contact No',
-//     value: '+212 617 708 648',
-//   },
-// ];
-
-const JobSummary = 'A certified full-stack web developer dedicated to creating seamless user experiences through a combination of intuitive front-end designs and robust back-end functionality. Skilled in a wide range of languages, frameworks, and technologies, with the ability to quickly learn new tools.';
+const JobSummary = "I'm a full-stack web developer dedicated to creating seamless user experiences through a combination of intuitive front-end designs and robust back-end functionality. Skilled in a wide range of languages, frameworks, and technologies. I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.";
 
 const About = () => (
   <section id="about" className="about">
     <PageHeaderContent
-      headerText="About Me"
+      headerText="About"
       icon={<BsInfoCircleFill size={40} />}
     />
 
@@ -61,29 +34,26 @@ const About = () => (
           <p>{JobSummary}</p>
         </Animate>
 
-        {/* <Animate
+        <Animate
           play
           duration={1.5}
-          delay={1}
+          delay={0.5}
           start={{
-            transform: 'translateX(500px)',
+            transform: 'translateX(-900px)',
           }}
           end={{
             transform: 'translateX(0px)',
           }}
         >
-          <h3 className="personalInformationHeaderText">Personel Information</h3>
-          <ul>
-            {
-              personalDetails.map((item) => (
-                <li key={item.id}>
-                  <span className="title">{item.label}</span>
-                  <span className="value">{item.value}</span>
-                </li>
-              ))
-            }
-          </ul>
-        </Animate> */}
+          <a
+            href="https://drive.google.com/file/d/1uRmAn6wJOgClq4RYmxRG1efyWUbhOO2F/view?usp=sharing"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button type="button">GET MY RESUME</button>
+          </a>
+        </Animate>
+
       </div>
       <div className="about__content__servicesWrapper">
         <Animate
@@ -102,13 +72,13 @@ const About = () => (
               <FaDatabase size={60} color="var(--theme-main-color)" />
             </div>
             <div>
-              <DiAndroid size={60} color="var(--theme-main-color)" />
+              <FaJsSquare size={60} color="var(--theme-main-color)" />
+            </div>
+            <div>
+              <FaReact size={60} color="var(--theme-main-color)" />
             </div>
             <div>
               <FaDev size={60} color="var(--theme-main-color)" />
-            </div>
-            <div>
-              <DiApple size={60} color="var(--theme-main-color)" />
             </div>
           </div>
         </Animate>
