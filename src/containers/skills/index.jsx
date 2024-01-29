@@ -23,7 +23,7 @@ const Skills = () => (
               duration={1}
               delay={0.3}
               start={{
-                transform: 'translateX(-200px)',
+                transform: 'translateX(-500px)',
               }}
               end={{
                 transform: 'translateX(0px)',
@@ -66,7 +66,7 @@ const Skills = () => (
       duration={1}
       delay={0.3}
       start={{
-        transform: 'translateX(350px)',
+        transform: 'translateX(-500px)',
       }}
       end={{
         transform: 'translateX(0px)',
