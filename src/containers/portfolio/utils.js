@@ -2,7 +2,7 @@ import ImageOne from '../../images/image1.jpg';
 import ImageTwo from '../../images/image2.jpg';
 import ImageThree from '../../images/image3.png';
 import ImageFour from '../../images/image4.png';
-import ImageFive from '../../images/image5.jpeg';
+import ImageFive from '../../images/image5.png';
 import ImageSix from '../../images/image6.jpg';
 import ImageSeven from '../../images/image7.jpg';
 import ImageEight from '../../images/image8.png';
@@ -26,22 +26,22 @@ const portfolioData = [
     id: 3,
     name: 'Budget App',
     image: ImageThree,
-    link: 'https://github.com/tajemouti/budget_app',
+    link: 'https://budget-wizard-app.onrender.com',
     code: 'https://github.com/tajemouti/budget_app',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Repice App',
     image: ImageFour,
-    link: 'https://github.com/tajemouti/rails_group_project',
+    link: 'https://recipe-wizard-app.onrender.com/',
     code: 'https://github.com/tajemouti/rails_group_project',
   },
   {
-    id: 3,
-    name: 'Blog App',
+    id: 2,
+    name: 'Dubai Airshow',
     image: ImageFive,
-    link: 'https://github.com/tajemouti/blog',
-    code: 'https://github.com/tajemouti/blog',
+    link: 'https://tajemouti.github.io/first-capstone/',
+    code: 'https://github.com/tajemouti/first-capstone/',
   },
   {
     id: 2,
