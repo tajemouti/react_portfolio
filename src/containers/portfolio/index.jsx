@@ -55,7 +55,13 @@ const Portfolio = () => {
                   {
                     index === hoveredValue && (
                       <div>
-                        <p>{item.name}</p>
+                        <h4>{item.name}</h4>
+                        <p>{item.description}</p>
+                        <ul>
+                          {item.tech.map((techItem, techIndex) => (
+                            <li key={techIndex}>{techItem}</li>
+                          ))}
+                        </ul>
                         <a href={item.link} rel="noopener noreferrer" target="_blank">Visit</a>
                         <a href={item.code} rel="noopener noreferrer" target="_blank">Code</a>
                       </div>

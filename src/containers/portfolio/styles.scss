@@ -69,8 +69,10 @@
             text-align: center;
             display: flex;
             flex-direction: column;
+            height: 95%;
+            width: 95%;
 
-            p {
+            h4 {
               color: #000;
               margin: 0;
               font-size: 4rem;
@@ -78,6 +80,12 @@
               overflow: hidden;
               white-space: nowrap;
               animation: typingEffect 1s steps(30, end);
+            }
+
+            p {
+              font-size: 1.5rem;
+              text-align: justify;
+              margin-top: 1rem;
             }
 
             a {
@@ -95,6 +103,19 @@
               &:hover {
                 background: #000;
                 color: var(--theme-main-color);
+              }
+            }
+
+            ul {
+              display: flex;
+              justify-content: space-around;
+              list-style: none;
+              margin: 1.5rem 0;
+            
+              li {
+                border: 1.5px solid #000;
+                border-radius: 2px;
+                padding: 4px 8px;
               }
             }
           }
@@ -138,7 +159,7 @@
 
     &__item {
       .overlay {
-        div > p {
+        div > h4 {
           font-size: 2.5rem;
         }
       }
