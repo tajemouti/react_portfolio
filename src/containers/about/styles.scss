@@ -141,34 +141,34 @@
     }
 
     &__servicesWrapper {
-      margin: 10px 0;
+      margin: 20px 0;
 
       &__innerContent {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         background: radial-gradient(120px, var(--theme-main-color), transparent 120%);
 
         div:nth-child(1) {
           position: absolute;
-          top: -15%;
+          top: -25%;
           left: 38%;
         }
 
         div:nth-child(2) {
           position: absolute;
-          right: -11%;
+          right: -21%;
           top: 40%;
         }
 
         div:nth-child(3) {
           position: absolute;
-          bottom: -12%;
+          bottom: -22%;
           left: 40%;
         }
 
         div:nth-child(4) {
           position: absolute;
-          left: -12%;
+          left: -22%;
           top: 40%;
         }
       }
