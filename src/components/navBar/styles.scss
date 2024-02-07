@@ -5,10 +5,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
+  position: sticky;
   z-index: 1;
 
   &__container {
