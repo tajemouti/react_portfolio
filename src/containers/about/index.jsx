@@ -24,7 +24,7 @@ const About = () => (
           duration={1.5}
           delay={0.5}
           start={{
-            transform: 'translateX(-500px)',
+            transform: 'translateX(-900px)',
           }}
           end={{
             transform: 'translateX(0px)',
@@ -39,7 +39,7 @@ const About = () => (
           duration={1.5}
           delay={0.5}
           start={{
-            transform: 'translateX(-500px)',
+            transform: 'translateX(-900px)',
           }}
           end={{
             transform: 'translateX(0px)',
@@ -53,15 +53,15 @@ const About = () => (
             <button type="button">GET MY RESUME</button>
           </a>
         </Animate>
-      </div>
 
+      </div>
       <div className="about__content__servicesWrapper">
         <Animate
           play
           duration={1.5}
           delay={0.5}
           start={{
-            transform: 'translateX(-500px)',
+            transform: 'translateX(600px)',
           }}
           end={{
             transform: 'translateX(0px)',
@@ -89,7 +89,7 @@ const About = () => (
       duration={1.5}
       delay={0.5}
       start={{
-        transform: 'translateX(-500px)',
+        transform: 'translateX(-900px)',
       }}
       end={{
         transform: 'translateX(0px)',

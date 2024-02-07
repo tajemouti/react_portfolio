@@ -60,6 +60,7 @@
           opacity: 0;
           transition: 0.5s ease;
           background-color: var(--theme-main-color);
+          opacity: 0.15;
 
           div {
             position: absolute;
@@ -122,7 +123,7 @@
         }
 
         &:hover .overlay {
-          opacity: 1;
+          opacity: 0.85;
         }
       }
     }
