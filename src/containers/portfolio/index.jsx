@@ -3,7 +3,6 @@ import { AiOutlineProject } from 'react-icons/ai';
 import PageHeaderContent from '../../components/pageHeaderContent';
 import './styles.scss';
 import { filterData, portfolioData } from './utils';
-import SocialFooter from '../../components/footer';
 
 const Portfolio = () => {
   const [filteredValue, setFilteredValue] = useState(1);
@@ -73,8 +72,6 @@ const Portfolio = () => {
           }
         </div>
       </div>
-
-      <SocialFooter />
     </section>
   );
 };

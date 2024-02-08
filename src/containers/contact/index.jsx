@@ -3,7 +3,6 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { Animate } from 'react-simple-animate';
 import PageHeaderContent from '../../components/pageHeaderContent';
 import './styles.scss';
-import SocialFooter from '../../components/footer';
 
 const Contact = () => (
   <section id="contact" className="contact">
@@ -17,25 +16,14 @@ const Contact = () => (
         duration={1}
         delay={0}
         start={{
-          transform: 'translateX(-200px)',
+          transform: 'translateY(550px)',
         }}
         end={{
-          transform: 'translateX(0px)',
+          transform: 'translateY(0px)',
         }}
       >
         <h3 className="contact__content__header-text">I&apos;m always interested in hearing about new projects, so if you&apos;d like to chat please get in touch.</h3>
-      </Animate>
-      <Animate
-        play
-        duration={1}
-        delay={0}
-        start={{
-          transform: 'translateX(200px)',
-        }}
-        end={{
-          transform: 'translateX(0px)',
-        }}
-      >
+
         <form className="contact__content__form" action="https://formspree.io/f/mdovqere" method="post">
           <div className="contact__content__form__controlswrapper">
             <div>
@@ -80,20 +68,6 @@ const Contact = () => (
         </form>
       </Animate>
     </div>
-
-    <Animate
-      play
-      duration={1}
-      delay={0}
-      start={{
-        transform: 'translateX(-200px)',
-      }}
-      end={{
-        transform: 'translateX(0px)',
-      }}
-    >
-      <SocialFooter />
-    </Animate>
   </section>
 );
 

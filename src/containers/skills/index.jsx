@@ -5,7 +5,6 @@ import { Line } from 'rc-progress';
 import PageHeaderContent from '../../components/pageHeaderContent';
 import skillsData from './utils';
 import './styles.scss';
-import SocialFooter from '../../components/footer';
 
 const Skills = () => (
   <section id="skills" className="skills">
@@ -23,10 +22,10 @@ const Skills = () => (
               duration={1}
               delay={0.3}
               start={{
-                transform: 'translateX(-200px)',
+                transform: 'translateY(800px)',
               }}
               end={{
-                transform: 'translateX(0px)',
+                transform: 'translateY(0px)',
               }}
             >
               <h3 className="skills__content-wrapper__inner-content__category-text">
@@ -61,19 +60,6 @@ const Skills = () => (
         ))
       }
     </div>
-    <Animate
-      play
-      duration={1}
-      delay={0.3}
-      start={{
-        transform: 'translateX(350px)',
-      }}
-      end={{
-        transform: 'translateX(0px)',
-      }}
-    >
-      <SocialFooter />
-    </Animate>
   </section>
 );
 
