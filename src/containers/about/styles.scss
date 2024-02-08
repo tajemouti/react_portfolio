@@ -32,22 +32,6 @@
         justify-content: center;
         margin-top: 15px;
         margin-bottom: 2rem;
-
-        button {
-          cursor: pointer;
-          padding: 10px 70px;
-          font-size: 2rem;
-          background: transparent;
-          color: var(--theme-main-color);
-          border: 1.5px solid var(--theme-main-color);
-          border-radius: 4px;
-          font-weight: 500;
-
-          &:hover {
-            background: var(--theme-main-color);
-            color: #000;
-          }
-        }
       }
 
       ul > li {
@@ -77,6 +61,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      padding: 2.5rem;
 
       &__innerContent {
         width: 350px;
@@ -136,7 +121,11 @@
 
     &__personalWrapper {
       p {
-        font-size: 2rem;
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        font-size: 2.5rem;
       }
     }
 
@@ -144,8 +133,8 @@
       margin: 20px 0;
 
       &__innerContent {
-        width: 200px;
-        height: 200px;
+        width: 18rem;
+        height: 18rem;
         background: radial-gradient(120px, var(--theme-main-color), transparent 120%);
 
         div:nth-child(1) {
