@@ -9,6 +9,7 @@ import Contact from './containers/contact';
 import Portfolio from './containers/portfolio';
 import NavBar from './components/navBar';
 import particlesOptions from './particles.json';
+import SocialFooter from './components/footer';
 import './App.scss';
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
+      <SocialFooter />
     </div>
   );
 }
