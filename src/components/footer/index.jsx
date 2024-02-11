@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  FaGithub, FaLinkedin, FaTwitter, FaMedium, FaAngellist,
+  FaGithub, FaLinkedin, FaFacebook, FaWhatsapp, FaEnvelope,
 } from 'react-icons/fa';
 import './styles.scss';
 
@@ -8,9 +8,9 @@ const SocialFooter = () => {
   const socialLinks = [
     { name: 'GitHub', link: 'https://github.com/tajemouti', icon: <FaGithub size={25} color="var(--theme-main-color)" /> },
     { name: 'LinkedIn', link: 'https://www.linkedin.com/in/ajrass', icon: <FaLinkedin size={25} color="var(--theme-main-color)" /> },
-    { name: 'WellFound', link: 'https://wellfound.com/u/ajrass-tajemouti', icon: <FaAngellist size={25} color="var(--theme-main-color)" /> },
-    { name: 'Twitter', link: 'https://twitter.com/AjrassTajemouti', icon: <FaTwitter size={25} color="var(--theme-main-color)" /> },
-    { name: 'Medium', link: 'https://medium.com/@tajemouti/', icon: <FaMedium size={25} color="var(--theme-main-color)" /> },
+    { name: 'Facebook', link: 'https://www.facebook.com/ajrass', icon: <FaFacebook size={25} color="var(--theme-main-color)" /> },
+    { name: 'E-mail', link: 'mailto:tajemouti@gmail.com', icon: <FaEnvelope size={25} color="var(--theme-main-color)" /> },
+    { name: 'WhatsApp', link: 'https://api.whatsapp.com/send?phone=212617708648', icon: <FaWhatsapp size={25} color="var(--theme-main-color)" /> },
   ];
 
   return (
