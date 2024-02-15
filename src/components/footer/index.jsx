@@ -10,7 +10,7 @@ const SocialFooter = () => {
     { name: 'LinkedIn', link: 'https://www.linkedin.com/in/ajrass', icon: <FaLinkedin size={25} color="var(--theme-main-color)" /> },
     { name: 'Facebook', link: 'https://www.facebook.com/ajrass', icon: <FaFacebook size={25} color="var(--theme-main-color)" /> },
     { name: 'E-mail', link: 'mailto:tajemouti@gmail.com', icon: <FaEnvelope size={25} color="var(--theme-main-color)" /> },
-    { name: 'WhatsApp', link: 'https://api.whatsapp.com/send?phone=212617708648', icon: <FaWhatsapp size={25} color="var(--theme-main-color)" /> },
+    { name: 'WhatsApp', link: 'https://wa.me/212617708648', icon: <FaWhatsapp size={25} color="var(--theme-main-color)" /> },
   ];
 
   return (
